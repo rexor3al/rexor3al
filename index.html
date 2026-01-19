@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rexo Sexo Hek</title>
-  <meta name="description" content="Rexo Sexo Hek static webpage">
+  <title>Wertzy Here</title>
 
   <style>
     * {
@@ -19,7 +18,7 @@
       font-family: monospace;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
     }
 
     .container {
@@ -34,14 +33,13 @@
       max-width: 100%;
       aspect-ratio: 16 / 9;
       margin: 0 auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      overflow: hidden;
     }
 
     .hero-image img {
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: cover;
       display: block;
     }
 
@@ -50,6 +48,28 @@
       font-size: 28px;
       letter-spacing: 2px;
       font-weight: 500;
+    }
+
+    .subtitle-block {
+      margin-top: 18px;
+      line-height: 1.2;
+      font-size: 14px;
+    }
+
+    .subtitle-block .line {
+      margin: 2px 0;
+      color: #bdbdbd;
+    }
+
+    .subtitle-block .highlight {
+      color: #ff0000;
+    }
+
+    .ascii {
+      margin-top: 10px;
+      color: #e0e0e0;
+      font-size: 13px;
+      letter-spacing: 1px;
     }
 
     @media (max-width: 600px) {
@@ -68,10 +88,20 @@
   <div class="container">
 
     <div class="hero-image">
-      <img src="https://i.ibb.co/Ty9Br3Y/image.jpg" alt="">
+      <img src="https://i.ibb.co/Nd1yWrmY/image.jpg" alt="">
     </div>
 
-    <div class="title">Rexo Sexo Hek</div>
+    <div class="title">Wertzy Here</div>
+
+    <div class="subtitle-block">
+      <div class="line">Creative Developer</div>
+      <div class="line highlight">Media Partner</div>
+      <div class="line">Digital Identity</div>
+    </div>
+
+    <div class="ascii">
+      --=={  DIGITAL PRESENCE ACTIVE  }==--
+    </div>
 
   </div>
 
